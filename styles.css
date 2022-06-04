@@ -375,7 +375,7 @@ hr {
 /*    Details Section (Pamuk & Bugday)    */
 
 .temp {
-  background-image: url("/images/background.png");
+  background-image: url("images/background.png");
   margin-left: auto;
   margin-right: auto;
   left: 0;
