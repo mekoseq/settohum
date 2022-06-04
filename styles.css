@@ -382,6 +382,10 @@ hr {
   right: 0;
   text-align: center;
   margin-top: 10rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .detailRect {
@@ -397,6 +401,7 @@ hr {
   direction: rtl;
   width: 960px;
   height: 440px;
+  padding-right: 2rem;
 }
 
 .rightSide {
