@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Tohum</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b8c307acdf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="events.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Inter&family=Ubuntu&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Top Navbar -->
+    <div class="topnav" id="myTopnav">
+        <a href=""><img id="logo" src="/images/logo.png"></a>
+        <a href="index.html">Anasayfa</a>
+        <a href="aboutUs.html">Hakkımızda</a>
+        <a href="products.html">Ürünler</a>
+        <a href="events.html" class="active">Etkinlikler</a>
+        <a href="#about">İnsan Kaynakları</a>
+        <a href="arge.html">AR-GE</a>
+        <a href="tarim.html">Tarım</a>
+        <a href="#about">İletişim</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <!-- Slider Section -->
+    <div>
+        <div id="productsSlider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/productSlider1.png" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/productSlider2.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/productSlider3.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/productSlider4.png" alt="Third slide">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="intro">
+        <img class="yaprakImg" src="images/yaprak.png" alt="">
+        <h3 class="eventsTitle">Etkinliklerimiz</h3>
+        <hr>
+    </div>
+    <div class="productsBtn">
+        <a href="" class="buttons">Hepsi</a>
+        <a href="" class="buttons">Fuarlar</a>
+        <a href="" class="buttons">Tarla Günleri</a>
+        <a href="" class="buttons">Tarla Ziyaretleri</a>
+        <a href="" class="buttons">Bayi Buluşmalar</a>
+    </div>
+
+    <div class="eventsCards">
+        <div class="card-group">
+            <div class="row events-row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card mb-3 text-center" style="width: 50rem;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/eventImg1.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Şanlıurfa Gıda ve Tarım ve Hayvancılık Fuarı</h5>
+                                    <p class="card-text">26 – 29 Nisan 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" style="width: 50rem;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/eventImg3.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Şanlıurfa Gıda ve Tarım ve Hayvancılık Fuarı</h5>
+                                    <p class="card-text">26 – 29 Nisan 2018</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 card-right">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="images/eventImg2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">12. Uluslararası Tarım, Tarım Makinaları, Hayvancılık,
+                                Hayvancılık Ekipmanları ve Seracılık Fuarı</h5>
+                            <p class="card-text">10 Ekim 2015</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-distributed">
+        <div class="footer-left">
+
+            <img class="footerLogo" src="images/footerlogo.png">
+
+            <p class="footer-links">
+                <a href="index.html" class="link-1">Anasayfa</a>
+
+                <a href="aboutUs.html">Hakkımızda</a>
+
+                <a href="products.html">Ürünler</a>
+
+                <a href="events.html">Etkinlikler</a>
+
+                <a href="#">İnsan Kaynakları</a>
+
+                <a href="arge.html">AR-GE</a>
+
+                <a href="tarim.html">Tarım</a>
+
+                <a href="#">İletişim</a>
+            </p>
+
+            <p class="footer-company-name">2022 © SET TOHUMCULUK GIDA TARIM SAN. VE TİC. A.Ş</p>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker fas"></i>
+                <p><span>Adana Hacı Sabancı O.S.B. Turgut Özal Bulvarı</span> No:35 01350 Sarıçam ADANA </p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone fas"></i>
+                <p>+90.322.394 33 66</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope fas"></i>
+                <p><a href="mailto: info@settohum.com"> info@settohum.com</a></p>
+            </div>
+
+        </div>
+
+        <div class="footer-right">
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="topnavbar.js" charset="utf-8"></script>
+
+</body>
+
+</html>
